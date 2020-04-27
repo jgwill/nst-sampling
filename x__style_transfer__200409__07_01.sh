@@ -18,11 +18,6 @@ export mdheader="|   	| Content  	|  Result 	|  Style Image 	|   	|"
 
 
 # If new stuff, we commit and push them
-git add img/*
-git add content/*
-git add *sh *py
-git commit . -m "up img and content and script"
-git push 
 
 
 
@@ -81,12 +76,6 @@ echo $metafile
 #$interpreter_cmd $nst_script $styleimage $contentimage $resultoutfile
 
 
-git add $metaresultsout $metafile 
-git add nst/*
-git commit . -m "result $iterationgoal"
-git push
-#--------------------END----------------------
-#-------------------------------------------------------------
 
 
 
@@ -146,10 +135,6 @@ echo $metafile
 $interpreter_cmd $nst_script $styleimage $contentimage $resultoutfile
 
 
-git add $metaresultsout $metafile 
-git add nst/*
-git commit . -m "result $iterationgoal"
-git push
 #--------------------END----------------------
 #-------------------------------------------------------------
 
@@ -213,10 +198,6 @@ echo $metafile
 $interpreter_cmd $nst_script $styleimage $contentimage $resultoutfile
 
 
-git add $metaresultsout $metafile 
-git add nst/*
-git commit . -m "result $iterationgoal"
-git push
 #--------------------END----------------------
 #-------------------------------------------------------------
 
