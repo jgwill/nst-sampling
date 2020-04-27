@@ -4,7 +4,7 @@ export goalline="Acrylic painting style transfered to drawings"
 echo $goalline
 # The current NST Transfer Python Script to use for the Style Transfer 
 export nst_script=x__style_transfer__200316__06_01.py
-export interpreter_cmd=python
+export interpreter_cmd=python3
 
 #--@STCGoal Trying to generate output name based on the name of this script
 export baseout="./nst/$0"
