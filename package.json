@@ -1,0 +1,27 @@
+{
+  "name": "x__style_transfer__200203",
+  "version": "1.0.0",
+  "description": "Neural Style Transfer using GAN network",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub":"cp -r nst img content"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jgwill/nad.previz.git"
+  },
+  "keywords": [
+    "nst",
+    "ai"
+  ],
+  "author": "Guillaume Descoteaux-Isabelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgwill/nad.previz/issues"
+  },
+  "homepage": "https://github.com/jgwill/nad.previz#readme"
+}

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo This pull repo, process style and commit results
+sleep 2
+
+(git pull ;./x__style_transfer__200301__05_03__mr.sh && git add nst/x__style_transfer__200301__05_03* && git commit . -m "done NST 5.3a-c Mid-Res (MR) result" && git push) &
+
