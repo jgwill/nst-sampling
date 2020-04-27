@@ -73,7 +73,8 @@ echo $metafile
 
 #--@a Executing the Neural Style Transfer
 #DONE ALREADY
-#$interpreter_cmd $nst_script $styleimage $contentimage $resultoutfile
+echo $interpreter_cmd $nst_script $styleimage $contentimage $resultoutfile
+$interpreter_cmd $nst_script $styleimage $contentimage $resultoutfile
 
 
 
